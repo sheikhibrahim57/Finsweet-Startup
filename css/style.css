@@ -1,0 +1,1842 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--pp);
+    scroll-behavior: smooth !important;
+}
+h1,h2,h3,h4,h5,h6,p,span,ul,li{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,li,ol{
+    list-style: none;
+    list-style: none;
+}
+
+/* Common Section Head */
+.com_sec_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.com_sec_head h2{
+    color: var(--b2);
+    font-size: 40px;
+    font-weight: 600;
+}
+.com_sec_head a{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.com_sec_head a:hover{
+    color: var(--hover);
+}
+.com_sec_head a i{
+    margin-left: 10px;
+}
+
+
+/* Common Section Inner Head */
+.com_sec_in_head h2{
+    color: var(--b2);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.com_sec_in_head p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.com_sec_in_head a{
+    color: var(--hover);
+    font-size: 18px;
+    font-weight: 500;
+}
+.com_sec_in_head a i{
+    color: var(--hover);
+    margin-left: 10px;
+    transition: all linear .3s;
+}
+.com_sec_in_head a:hover i{
+    margin-left: 20px;
+}
+
+/* Common Head Middle */
+.com_head_mid{
+    text-align: center;
+}
+.com_head_mid h6{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.com_head_mid h2{
+    color: var(--b2);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.com_head_mid p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+
+:root{
+    /* Fonts */
+    --pp: 'Poppins', sans-serif;
+    --op: 'Open Sans', sans-serif;
+    --nu: 'Nunito', sans-serif;
+    /* Colors */
+    --bg1: #1C1E53;
+    --bg2: #F4F6FC;
+    --hover: #5239FA;
+    --w: #fff;
+    --w2: #BBBBCB;
+    --b: #000;
+    --b2: #282938;
+}
+
+/* Common CSS End */
+
+/* ==============================================================================================================
+                                        Home Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                     Nav CSS Start
+=====================================================*/
+.navbar{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background: var(--bg1);
+}
+.navbar .navbar-toggler i{
+    color: var(--w);
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item{
+    margin: 0 15px;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link{
+    color: var(--w2);
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover{
+    color: var(--w);
+}
+.navbar #navbarSupportedContent .navbar-nav .nav-item .active{
+    color: var(--w);
+}
+.navbar .contact_btn{
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid var(--w2);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+    transition: all linear .3s;
+}
+.navbar .contact_btn:hover{
+    background: var(--hover);
+    border-color: var(--hover);
+}
+/* ===================================================
+                     Nav CSS End
+=====================================================*/
+
+
+/* ===================================================
+                    Banner CSS Start
+=====================================================*/
+#banner{
+    padding: 220px 0 130px;
+    background: var(--bg1);
+    position: relative;
+}
+/* #banner .page_links{
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    text-align: right;
+    display: flex;
+}
+#banner .page_links li{
+    margin: 0 10px;
+}
+#banner .page_links li a{
+    color: 8px;
+} */
+#banner .banner_left h1{
+    color: var(--w);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 74px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+#banner .banner_left p{
+    color: var(--w2);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#banner .banner_left .btns a{
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+#banner .banner_left .btns .active{
+    color: var(--b);
+    background: #FCD980;
+    transition: all linear .3s;
+}
+#banner .banner_left .btns .active:hover{
+    color: var(--w);
+    background: var(--hover);
+}
+#banner .banner_left .btns a:hover i{
+    margin-left: 20px;
+}
+#banner .banner_left .btns a i{
+    color: var(--w);
+    margin-left: 10px;
+    transition: all linear .3s;
+}
+#banner .banner_right img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+                    Banner CSS End
+=====================================================*/
+
+
+/* ===================================================
+                   Strategy CSS Start
+=====================================================*/
+#strategy{
+    padding: 100px 0 60px;
+    background: var(--bg2);
+}
+#strategy .strategy_right .strategy_right_item{
+    margin-bottom: 48px;
+}
+#strategy .strategy_right .strategy_right_item .count_no{
+    position: relative;
+    width: 50px;
+    margin-bottom: 20px;
+}
+#strategy .strategy_right .strategy_right_item .count_no img{
+    max-width: 50px;
+}
+#strategy .strategy_right .strategy_right_item .count_no h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: var(--w);
+    font-size: 16px;
+}
+#strategy .strategy_right .strategy_right_item h4{
+    color: var(--b2);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#strategy .strategy_right .strategy_right_item p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* ===================================================
+                   Strategy CSS End
+=====================================================*/
+
+
+/* ===================================================
+                   Project CSS Start
+=====================================================*/
+#project{
+    padding: 100px 0;
+}
+#project .project_inner{
+    margin-top: 60px;
+}
+#project .project_inner .project_item{
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+#project .project_inner .project_item img{
+    width: 100%;
+    max-width: 100%;
+    transition: all linear .3s;
+}
+#project .project_inner .project_item:hover img{
+    transform: scale(1.05);
+}
+#project .project_inner .project_item .active_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 84, 0.4),#1C1E53);
+}
+#project .project_inner .project_item .active_overlay .text{
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    width: 100%;
+    padding: 0 20px 0 40px;
+}
+#project .project_inner .project_item .active_overlay .text h4{
+    color: var(--w);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+#project .project_inner .project_item .active_overlay .text p{
+    color: var(--w);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+#project .project_inner .project_item .active_overlay .text a{
+    color: #FCD980;
+    font-size: 16px;
+    font-weight: 500;
+}
+#project .project_inner .project_item .active_overlay .text a i{
+    margin-left: 10px;
+    transition: all linear .3s;
+}
+#project .project_inner .project_item .active_overlay .text a:hover i{
+    margin-left: 20px;
+}
+#project .project_inner .project_item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(28, 30, 84, 0.4),#1C1E53);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .3s;
+}
+#project .project_inner .project_item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+#project .project_inner .project_item:hover .overlay .text a i{
+    margin-left: 30px;
+}
+#project .project_inner .project_item .overlay .text{
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    width: 100%;
+    padding: 0 30px;
+}
+#project .project_inner .project_item .overlay .text h4{
+    color: var(--w);
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    line-height: 28px;
+}
+#project .project_inner .project_item .overlay .text a{
+    color: #FCD980;
+    font-size: 14px;
+    font-weight: 500;
+}
+#project .project_inner .project_item .overlay .text a i{
+    margin-left: 10px;
+    transition: all linear 1s;
+}
+/* ===================================================
+                   Project CSS End
+=====================================================*/
+
+
+/* ===================================================
+                   Service CSS Start
+=====================================================*/
+#service{
+    padding: 100px 0;
+    background: var(--bg2);
+}
+#service .service_inner{
+    margin-top: 60px;
+}
+#service .service_inner .service_item{
+    padding: 50px 30px;
+    background: var(--w);
+    margin-bottom: 24px;
+}
+#service .service_inner .service_item i{
+    color: var(--hover);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#service .service_inner .service_item h4{
+    color: var(--b2);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#service .service_inner .service_item p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* ===================================================
+                   Service CSS End
+=====================================================*/
+
+
+/* ===================================================
+                   Review CSS Start
+=====================================================*/
+#review{
+    padding: 100px 0;
+    background: #FCFDFE;
+}
+#review .review_right .review_right_item h4{
+    color: var(--b2);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 48px;
+}
+#review .review_right .review_right_item .user{
+    margin-top: 50px;
+    padding-left: 70px;
+    position: relative;
+}
+#review .review_right .review_right_item .user img{
+    max-width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+#review .review_right .review_right_item .user h4{
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 500;
+}
+#review .review_right .review_right_item .user h6{
+    color: var(--b2);
+    font-size: 12px;
+    font-weight: 500;
+}
+#review .review_right .review_right_item .user .btns{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#review .review_right .review_right_item .user .btns a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--w);
+    border-radius: 50%;
+    margin: 0 5px;
+    transition: all linear .3s;
+}
+#review .review_right .review_right_item .user .btns a:hover{
+    background: var(--hover);
+}
+#review .review_right .review_right_item .user .btns a i{
+    color: var(--b2);
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+#review .review_right .review_right_item .user .btns a:hover i{
+    color: var(--w);
+}
+/* ===================================================
+                   Review CSS End
+=====================================================*/
+
+
+/* ===================================================
+                     FAQ CSS Start
+=====================================================*/
+#faq{
+    padding: 100px 0 0;
+}
+#faq .faq_right .accordion .accordion-item{
+    border: none;
+    border-bottom: 1px solid #ECECF1;
+    padding-left: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.accordion-button:not(.collapsed) {
+	background-color: transparent;
+    box-shadow: none;
+}
+.accordion-button:focus {
+	border-color: none;
+	box-shadow: none;
+}
+#faq .faq_right .accordion .accordion-item .accordion-header .accordion-button{
+    position: relative;
+}
+#faq .faq_right .accordion .accordion-item .accordion-header .accordion-button{
+    color: var(--b2);
+    font-size: 20px;
+    font-weight: 500;
+}
+#faq .faq_right .accordion .accordion-item .accordion-header .accordion-button span{
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    color: var(--hover);
+    font-size: 18px;
+    font-weight: 500;
+}
+#faq .faq_right .accordion .accordion-item .accordion-body{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ===================================================
+                     FAQ CSS End
+=====================================================*/
+
+
+/* ===================================================
+                    Inquiry CSS Start
+=====================================================*/
+#inquiry{
+    padding: 100px 0;
+}
+#inquiry .inquiry_left{
+    background: red;
+    position: relative;
+    height: 100%;
+}
+#inquiry .inquiry_left img{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+#inquiry .inquiry_left .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(28, 30, 83, 0.4);
+}
+#inquiry .inquiry_left .overlay .text{
+    padding: 80px 80px 20px 80px;
+}
+#inquiry .inquiry_left .overlay .text h2{
+    color: var(--w);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+#inquiry .inquiry_left .overlay .text p{
+    color: var(--w);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+#inquiry .inquiry_right{
+    background: var(--bg1);
+    height: 100%;
+    padding: 80px 80px 20px 80px;
+    text-align: center;
+}
+#inquiry .inquiry_right h5{
+    color: var(--w);
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#inquiry .inquiry_right p{
+    color: var(--w);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+#inquiry .inquiry_right form{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#inquiry .inquiry_right form input{
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    color: var(--w2);
+    font-size: 14px;
+    font-weight: 400;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#inquiry .inquiry_right form button{
+    width: 100%;
+    padding: 10px 0;
+    background: #FCD980;
+    border: none;
+    border-radius: 30px;
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#inquiry .inquiry_right a{
+    color: var(--w);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+#inquiry .inquiry_right a i{
+    margin-left: 5px;
+    transition: all linear .3s;
+}
+#inquiry .inquiry_right a:hover i{
+    margin-left: 15px;
+}
+/* ===================================================
+                    Inquiry CSS End
+=====================================================*/
+
+
+/* ===================================================
+                    Blog CSS Start
+=====================================================*/
+#blog{
+    padding: 0 0 100px;
+}
+#blog .blog_inner{
+    margin-top: 60px;
+}
+#blog .blog_inner .blog_item:hover .image img{
+    transform: scale(1.1);
+}
+#blog .blog_inner .blog_item:hover .text a i{
+    margin-left: 20px;
+    transition: all linear .3s;
+}
+#blog .blog_inner .blog_item .image{
+    overflow: hidden;
+}
+#blog .blog_inner .blog_item .image img{
+    width: 100%;
+    max-width: 100%;
+    transition: all linear .3s;
+}
+#blog .blog_inner .blog_item .text{
+    margin-top: 20px;
+}
+#blog .blog_inner .blog_item .text h6{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#blog .blog_inner .blog_item .text h4{
+    color: var(--b2);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+#blog .blog_inner .blog_item .text p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#blog .blog_inner .blog_item .text a{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+}
+/* ===================================================
+                    Blog CSS End
+=====================================================*/
+
+
+/* ===================================================
+                    Footer CSS Start
+=====================================================*/
+#footer{
+    padding: 90px 0 0;
+    background: var(--bg1);
+}
+#footer .footer_left p{
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+#footer .footer_left .contact{
+    padding: 15px 30px;
+    background: #FCD980;
+    margin-top: 60px;
+}
+#footer .footer_left .contact .contact_item h5{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#footer .footer_left .contact .contact_item a{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+}
+#footer .footer_right h3{
+    color: var(--w);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#footer .footer_right p{
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#footer .footer_right ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+#footer .footer_right ul li{
+    margin-right: 20px;
+}
+#footer .footer_right ul li a i{
+    color: var(--w);
+    font-size: 18px;
+}
+#footer .footer_right ul li a:hover i{
+    color: var(--hover);
+}
+#footer_bottom{
+    padding: 25px 0;
+}
+#footer_bottom p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer_bottom ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+#footer_bottom ul li{
+    margin-left: 30px;
+}
+#footer_bottom ul li a{
+    color: var(--b2);
+    font-size: 15px;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+#footer_bottom ul li a:hover{
+    color: var(--hover);
+}
+/* ===================================================
+                    Footer CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                        Home Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                        About Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                About Banner CSS Start
+=====================================================*/
+#about_banner{
+    padding: 200px 0 120px;
+}
+#about_banner .about_banner_left h6{
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#about_banner .about_banner_left h1{
+    color: var(--b2);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+#about_banner .about_banner_left p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#about_banner .about_banner_right img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+                About Banner CSS End
+=====================================================*/
+
+/* ===================================================
+                About-About CSS Start
+=====================================================*/
+#about_about{
+    margin-bottom: 100px;
+}
+#about_about .about_about_top{
+    padding: 80px;
+    background: #f4f5f5;
+}
+#about_about .about_about_top .about_about_top_head h6{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#about_about .about_about_top .about_about_item h3{
+    color: var(--b2);
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#about_about .about_about_top .about_about_item p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#about_about .about_about_bottom .image img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+                About-About CSS End
+=====================================================*/
+
+/* ===================================================
+                  Process CSS Start
+=====================================================*/
+#process{
+    padding: 50px 0 100px;
+}
+#process .process_inner{
+    margin-top: 100px;
+}
+#process .process_inner .process_item{
+    position: relative;
+}
+#process .process_inner .process_item::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: -50px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--hover);
+}
+#process .process_inner .process_item::before{
+    position: absolute;
+    content: '';
+    right: 0;
+    top: -40px;
+    width: 85%;
+    height: 2px;
+    background: url(../images/about/line.png);
+}
+#process .process_inner .process_item h4{
+    color: var(--b2);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#process .process_inner .process_item p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* ===================================================
+                  Process CSS End
+=====================================================*/
+
+/* ===================================================
+                   Client CSS Start
+=====================================================*/
+#client{
+    margin-bottom: 100px;
+}
+#client .client_left h3{
+    color: var(--b2);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#client .client_left p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+}
+#client .client_right ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#client .client_right ul li{
+    width: 20%;
+}
+/* ===================================================
+                   Client CSS End
+=====================================================*/
+
+/* ===================================================
+                     Team CSS Start
+=====================================================*/
+#team{
+    padding: 100px 0 100px;
+    background: var(--bg2);
+}
+#team .team_inner{
+    margin-top: 60px;
+}
+#team .team_inner .team_item{
+    padding: 50px 30px 30px;
+    background: var(--w);
+}
+#team .team_inner .team_item .image{
+    text-align: center;
+    position: relative;
+}
+#team .team_inner .team_item .image img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+#team .team_inner .team_item .image .social{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    transition: all linear .3s;
+}
+#team .team_inner .team_item:hover .image .social{
+    transform: translateX(-50%) scale(1);
+}
+#team .team_inner .team_item .image .social ul{
+    display: flex;
+}
+#team .team_inner .team_item .image .social ul li{
+    margin: 0 5px;
+}
+#team .team_inner .team_item .image .social ul li a i{
+    color: var(--w);
+    font-size: 12px;
+    transition: all linear .3s;
+}
+#team .team_inner .team_item .image .social ul li a:hover i{
+    font-size: 14px;
+}
+#team .team_inner .team_item .text{
+    margin-top: 20px;
+    text-align: center;
+}
+#team .team_inner .team_item .text h4{
+    color: var(--b2);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#team .team_inner .team_item .text p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ===================================================
+                     Team CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                        About Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                            Pricing Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                Pricing CSS Start
+=====================================================*/
+#pricing{
+    padding: 200px 0 60px;
+}
+#pricing .pricing_inner{
+    margin-top: 60px;
+}
+#pricing .pricing_inner .pricing_item{
+    padding: 60px 50px 120px;
+    background: var(--bg2);
+    border-radius: 20px;
+    position: relative;
+}
+#pricing .pricing_inner .pricing_item h3{
+    color: var(--b2);
+    font-size: 30px;
+    font-weight: 600;
+}
+#pricing .pricing_inner .pricing_item h3 span{
+    color: var(--hover);
+    font-size: 16px;
+    font-weight: 400;
+}
+#pricing .pricing_inner .pricing_item h5{
+    color: var(--b2);
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#pricing .pricing_inner .pricing_item p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+}
+#pricing .pricing_inner .pricing_item ul{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+#pricing .pricing_inner .pricing_item ul li{
+    padding-left: 25px;
+    position: relative;
+    margin-bottom: 15px;
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+}
+#pricing .pricing_inner .pricing_item ul li i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 12px;
+}
+#pricing .pricing_inner .pricing_item ul li .available{
+    color: #97DAAD;
+}
+#pricing .pricing_inner .pricing_item ul li .not_available{
+    color: #A8AAB0;
+}
+#pricing .pricing_inner .pricing_item .btn{
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+    padding: 15px 0;
+    width: 60%;
+    background: var(--b2);
+    color: var(--w);
+    font-size: 16px;
+    font-weight: 600;
+}
+/* Active Item CSS */
+#pricing .pricing_inner .active_item{
+    background: var(--bg1);
+}
+#pricing .pricing_inner .active_item h3{
+    color: var(--w);
+}
+#pricing .pricing_inner .active_item h3 span{
+    color: #FCD980;
+}
+#pricing .pricing_inner .active_item h5{
+    color: var(--w);
+}
+#pricing .pricing_inner .active_item p{
+    color: var(--w);
+}
+#pricing .pricing_inner .active_item ul li{
+    color: var(--w);
+}
+#pricing .pricing_inner .active_item .btn{
+    color: var(--b2);
+    background: #FCD980;
+}
+/* ===================================================
+                Pricing CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                            Pricing Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                        Work Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                  Work Head CSS Start
+=====================================================*/
+#work_head{
+    padding: 200px 0 100px;
+    background: var(--bg2);
+}
+#work_head .work_head_inner{
+    text-align: center;
+}
+#work_head .work_head_inner h6{
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+#work_head .work_head_inner h1{
+    color: var(--b2);
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#work_head .work_head_inner p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#work_head .work_head_inner ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#work_head .work_head_inner ul li{
+    margin: 0 10px;
+}
+#work_head .work_head_inner ul li a i{
+    color: var(--b2);
+}
+#work_head .work_head_inner .btn{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    background: #FCD980;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-left: 20px;
+    transition: all linear .3s;
+}
+#work_head .work_head_inner .btn:hover{
+    color: var(--w);
+    background: var(--hover);
+}
+/* ===================================================
+                  Work Head CSS End
+=====================================================*/
+
+/* ===================================================
+                Work NavTab CSS Start
+=====================================================*/
+#work_navTab{
+    padding: 100px 0;
+}
+#work_navTab .work_nav .nav-tabs{
+    justify-content: center;
+    border: none;
+}
+#work_navTab .work_nav .nav-tabs .nav-item{
+    margin: 0 10px;
+}
+#work_navTab .work_nav .nav-tabs .nav-item .nav-link{
+    border: none;
+    color: var(--b2);
+    font-size: 18px;
+    font-weight: 500;
+}
+#work_navTab .work_nav .nav-tabs .nav-item .active{
+    color: var(--hover) !important;
+}
+#work_navTab .work_tab{
+    margin-top: 50px;
+}
+#work_navTab .work_tab .work_item{
+    margin-bottom: 60px;
+}
+#work_navTab .work_tab .work_item .image img{
+    width: 100%;
+    max-width: 100%;
+}
+#work_navTab .work_tab .work_item .text{
+    margin-top: 30px;
+}
+#work_navTab .work_tab .work_item .text h3{
+    color: var(--b2);
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#work_navTab .work_tab .work_item .text p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+#work_navTab .work_tab .work_item .text span{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+}
+#work_navTab .work_tab .work_item:hover .text span i{
+    transition: all linear .3s;
+}
+#work_navTab .work_tab .work_item:hover .text span{
+    color: var(--hover);
+}
+#work_navTab .work_tab .work_item:hover .text span i{
+    margin-left: 20px;
+}
+/* ===================================================
+                Work NavTab CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                        Work Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                        Case Studies Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+              Case Studies Head CSS Start
+=====================================================*/
+#case_studies_head{
+    padding: 200px 0 100px;
+}
+#case_studies_head .case_studies_head_inner{
+    position: relative;
+}
+#case_studies_head .case_studies_head_inner .text h6{
+    color: var(--b2);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#case_studies_head .case_studies_head_inner .text h1{
+    color: var(--b2);
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    max-width: 80%;
+}
+#case_studies_head .case_studies_head_inner .text p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#case_studies_head .case_studies_head_inner .image{
+    margin-top: 50px;
+}
+#case_studies_head .case_studies_head_inner .image img{
+    width: 100%;
+    max-width: 100%;
+}
+#case_studies_head .client_info{
+    position: relative;
+}
+#case_studies_head .client_info::after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 82%;
+    height: 1px;
+    background: var(--w2);
+}
+#case_studies_head .client_info .info{
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+#case_studies_head .client_info .info h6{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#case_studies_head .client_info .info h4{
+    color: var(--b2);
+    font-size: 22px;
+    font-weight: 600;
+}
+/* ===================================================
+              Case Studies Head CSS End
+=====================================================*/
+
+/* ===================================================
+               Project About CSS Start
+=====================================================*/
+#project_about{
+    padding: 0 0 50px;
+}
+#project_about .project_about_inner h3{
+    color: var(--b2);
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#project_about .project_about_inner p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#project_about .project_about_inner ul li{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#project_about .project_about_inner ul li i{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: var(--b);
+    font-size: 12px;
+}
+#project_about .project_about_inner .image{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#project_about .project_about_inner .image img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+               Project About CSS End
+=====================================================*/
+
+/* ===================================================
+                  Keywords CSS Start
+=====================================================*/
+#keywords{
+    padding: 0 0 80px;
+}
+#keywords .keywords_inner ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0;
+    border-top: 1px solid var(--w2);
+    border-bottom: 1px solid var(--w2);
+}
+#keywords .keywords_inner ul li{
+    width: 14%;
+    text-align: center;
+}
+#keywords .keywords_inner ul li:first-child a{
+    color: var(--hover);
+    font-size: 24px;
+    font-weight: 500;
+}
+#keywords .keywords_inner ul li a{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 500;
+}
+/* ===================================================
+                  Keywords CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                        Case Studies Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                              Blog Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                  Blog About CSS Start
+=====================================================*/
+#blog_about{
+    padding: 200px 0 80px;
+}
+#blog_about .blog_about_text{
+    text-align: center;
+}
+#blog_about .blog_about_text h1{
+    color: var(--b2);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+#blog_about .blog_about_text p{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: .8;
+}
+#blog_about .blog_about_text p .name{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 600;
+    opacity: .8;
+}
+#blog_about .blog_about_text p .date{
+    color: var(--b2);
+    font-size: 16px;
+    font-weight: 600;
+}
+#blog_about .blog_about_text a{
+    color: var(--hover);
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+#blog_about .blog_about_image{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#blog_about .blog_about_image img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+                  Blog About CSS End
+=====================================================*/
+
+/* ===================================================
+                  Blog Post CSS Start
+=====================================================*/
+#blog_post .blog_post_inner{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#blog_post .blog_post_inner .blog_post_item{
+    margin-bottom: 55px;
+}
+#blog_post .blog_post_inner .blog_post_item .image{
+    overflow: hidden;
+}
+#blog_post .blog_post_inner .blog_post_item .image img{
+    width: 100%;
+    max-width: 100%;
+    transition: all linear .3s;
+}
+#blog_post .blog_post_inner .blog_post_item .text{
+    margin-top: 30px;
+}
+#blog_post .blog_post_inner .blog_post_item .text h6{
+    color: var(--b2);
+    font-size: 15px;
+    font-weight: 500;
+}
+#blog_post .blog_post_inner .blog_post_item .text h4{
+    color: var(--b2);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 10px;
+    transition: all linear .3s;
+}
+#blog_post .blog_post_inner .blog_post_item .text p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#blog_post .blog_post_inner .blog_post_item .text span{
+    color: var(--bg1);
+    font-size: 14px;
+    font-weight: 500;
+}
+#blog_post .blog_post_inner .blog_post_item .text span i{
+    transition: all linear .3s;
+}
+#blog_post .blog_post_inner .blog_post_item:hover .image img{
+    transform: scale(1.05);
+}
+#blog_post .blog_post_inner .blog_post_item:hover .text h4{
+    color: var(--hover);
+}
+#blog_post .blog_post_inner .blog_post_item:hover .text span i{
+    margin-left: 20px;
+}
+/* ===================================================
+                  Blog Post CSS End
+=====================================================*/
+
+/* ===================================================
+                Blog Content CSS Start
+=====================================================*/
+#blog_content{
+    padding-bottom: 50px;
+}
+#blog_content .blog_content_inner h4{
+    color: var(--b2);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#blog_content .blog_content_inner p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#blog_content .blog_content_inner ul{
+    margin-bottom: 30px;
+}
+#blog_content .blog_content_inner ul{
+    margin-bottom: 30px;
+}
+#blog_content .blog_content_inner ul li{
+    position: relative;
+}
+#blog_content .blog_content_inner ul li{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin: 8px 0;
+}
+#blog_content .blog_content_inner ul li i{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 8px;
+}
+#blog_content .blog_content_inner .image{
+    margin-bottom: 30px;
+}
+#blog_content .blog_content_inner .image img{
+    width: 100%;
+    max-width: 100%;
+}
+/* ===================================================
+                Blog Content CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                              Blog Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                        Contact Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                Contact Head CSS Start
+=====================================================*/
+#contact_head{
+    padding: 200px 0 100px;
+}
+#contact_head .contact_form{
+    padding: 50px 70px;
+    background: var(--bg2);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#contact_head .contact_form label{
+    display: block;
+    margin-bottom: 10px;
+    color: var(--b);
+    font-size: 16px;
+    font-weight: 500;
+}
+#contact_head .contact_form input{
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 10px 30px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: transparent;
+}
+#contact_head .contact_form textarea{
+    width: 100%;
+    padding: 20px 30px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: transparent;
+}
+#contact_head .contact_form button{
+    margin-top: 30px;
+    background: var(--b2);
+    color: var(--w);
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    transition: all linear .3s;
+}
+#contact_head .contact_form button:hover{
+    background: var(--hover);
+}
+/* ===================================================
+                Contact Head CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                        Contact Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                    Privacy Policy Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+             Privacy Policy Head CSS Start
+=====================================================*/
+#privacy_policy_head{
+    padding: 200px 0 100px;
+}
+/* ===================================================
+             Privacy Policy Head CSS End
+=====================================================*/
+
+/* ===================================================
+               Privacy Content CSS Start
+=====================================================*/
+#privacy_content .privacy_content_inner h4{
+    color: var(--b2);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#privacy_content .privacy_content_inner p{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+#privacy_content .privacy_content_inner ul{
+    margin-bottom: 30px;
+}
+#privacy_content .privacy_content_inner ul{
+    margin-bottom: 30px;
+}
+#privacy_content .privacy_content_inner ul li{
+    position: relative;
+}
+#privacy_content .privacy_content_inner ul li{
+    color: var(--b2);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 20px;
+    margin: 8px 0;
+}
+#privacy_content .privacy_content_inner ul li i{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 8px;
+}
+/* ===================================================
+               Privacy Content CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                    Privacy Policy Page CSS End
+================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================================================================================================
+                                        Home Page CSS Start
+================================================================================================================*/
+
+/* ===================================================
+                     Nav CSS Start
+=====================================================*/
+/* ===================================================
+                     Nav CSS End
+=====================================================*/
+
+/* ===================================================
+                     Nav CSS Start
+=====================================================*/
+/* ===================================================
+                     Nav CSS End
+=====================================================*/
+
+/* ==============================================================================================================
+                                        Home Page CSS End
+================================================================================================================*/

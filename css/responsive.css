@@ -1,0 +1,2335 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1311px) and (max-width: 1399.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1310.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* ===============================================================================
+                                  Case Studies Page CSS Start
+    =================================================================================*/
+    #case_studies_head .client_info .info h6 {
+        font-size: 14px;
+    }
+    #case_studies_head .client_info .info h4 {
+        font-size: 18px;
+    }
+
+
+    #keywords .keywords_inner ul li a {
+        font-size: 14px;
+    }
+    /* ===============================================================================
+                                  Case Studies Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Pricing Page CSS Start
+    =================================================================================*/
+    #pricing {
+        padding: 200px 0 0px;
+    }
+    #pricing .pricing_inner .pricing_item {
+        padding: 50px 40px 75px;
+        margin-bottom: 30px;
+    }
+    #pricing .pricing_inner .pricing_item .btn {
+        bottom: 40px;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    /* ===============================================================================
+                                  Pricing Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    .com_sec_in_head{
+        text-align: center;
+    }
+    .com_sec_in_head h2 {
+        font-size: 36px;
+    }
+    .com_sec_in_head p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .com_sec_in_head a {
+        font-size: 14px;
+    }
+    .com_sec_head {
+        justify-content: center;
+    }
+    .com_sec_head h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .com_sec_head a {
+        font-size: 14px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .com_head_mid h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .com_head_mid h6 {
+        font-size: 14px;
+    }
+
+
+
+    .navbar #navbarSupportedContent .navbar-nav {
+        text-align: center;
+    }
+    .navbar .contact_btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    .navbar .contact_btn {
+        font-size: 12px;
+        padding: 8px 20px;
+        background: #5239FA;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item {
+        margin: 0px 10px;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+
+    #banner {
+        padding: 130px 0 50px;
+    }
+    #banner .banner_left{
+        margin-top: 30px;
+    }
+    #banner .banner_left h1 {
+        font-size: 34px;
+        line-height: 48px;
+        text-align: center;
+    }
+    #banner .banner_left p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    #banner .banner_left .btns{
+        text-align: center;
+    }
+    #banner .banner_left .btns a {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+
+
+    #strategy {
+        padding: 70px 0 0px;
+    }
+    #strategy .strategy_right{
+        margin-top: 50px;
+    }
+    #strategy .strategy_right .strategy_right_item h4 {
+        font-size: 24px;
+    }
+    #strategy .strategy_right .strategy_right_item p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no {
+        width: 40px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no img {
+        max-width: 45px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no h6 {
+        font-size: 14px;
+    }
+
+
+
+    #project {
+        padding: 70px 0 50px;
+    }
+    #project .project_inner .project_item .active_overlay {
+        width: 60%;
+    }
+    #project .project_inner .project_item .active_overlay .text {
+        bottom: 20px;
+        padding: 0 20px 20px 25px;
+    }
+    #project .project_inner .project_item .active_overlay .text h4 {
+        font-size: 24px;
+        margin-bottom: 15px;
+        line-height: 36px;
+    }
+    #project .project_inner .project_item .active_overlay .text p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    #project .project_inner .project_item .active_overlay .text a {
+        font-size: 12px;
+    }
+    #project .project_inner .project_item .overlay .text {
+        bottom: 30px;
+        padding: 0 20px;
+    }
+    #project .project_inner .project_item .overlay .text h4 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #project .project_inner .project_item .overlay .text a {
+        font-size: 12px;
+    }
+
+
+
+    #service {
+        padding: 70px 0 50px;
+    }
+    #service .service_inner .service_item {
+        padding: 30px 30px;
+    }
+    #service .service_inner .service_item h4 {
+        font-size: 21px;
+    }
+    #service .service_inner .service_item p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+
+
+    #review {
+        padding: 70px 0;
+    }
+    #review .review_right{
+        margin-top: 50px;
+    }
+    #review .review_right .review_right_item h4 {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #review .review_right .review_right_item .user {
+        margin-top: 20px;
+        padding-left: 65px;
+    }
+    #review .review_right .review_right_item .user h4 {
+        font-size: 16px;
+    }
+    #review .review_right .review_right_item .user h6 {
+        font-size: 10px;
+    }
+    #review .review_right .review_right_item .user .btns a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 0;
+    }
+    #review .review_right .review_right_item .user .btns a i {
+        font-size: 12px;
+    }
+
+
+
+
+    #faq {
+        padding: 70px 0 0;
+    }
+    #faq .faq_left{
+        margin-bottom: 50px;
+    }
+    #faq .faq_right .accordion .accordion-item {
+        padding-left: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 16px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-header .accordion-button span {
+        left: -16px;
+        font-size: 16px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-body {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+
+
+    #inquiry {
+        padding: 70px 0;
+    }
+    #inquiry .container{
+        max-width: 100%;
+    }
+    #inquiry .inquiry_left{
+        display: none;
+    }
+    #inquiry .inquiry_left img {
+        height: 330px;
+    }
+    #inquiry .inquiry_left .overlay .text {
+        padding: 50px 30px 30px 30px;
+    }
+    #inquiry .inquiry_left .overlay .text h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    #inquiry .inquiry_left .overlay .text p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #inquiry .inquiry_right {
+        padding: 50px 30px 30px 30px;
+    }
+    #inquiry .inquiry_right p {
+        font-size: 12px;
+    }
+    #inquiry .inquiry_right form input {
+        font-size: 12px;
+    }
+    #inquiry .inquiry_right form button {
+        padding: 8px 0;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    #inquiry .inquiry_right a {
+        font-size: 14px;
+    }
+    #inquiry .inquiry_right h5 {
+        font-size: 34px;
+    }
+
+
+
+
+    #blog {
+        padding: 0 0 40px;
+    }
+    #blog .blog_inner {
+        margin-top: 40px;
+    }
+    #blog .blog_inner .blog_item {
+        margin-bottom: 40px;
+    }
+    #blog .blog_inner .blog_item .text h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #blog .blog_inner .blog_item .text h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #blog .blog_inner .blog_item .text p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    #blog .blog_inner .blog_item .text a {
+        font-size: 12px;
+    }
+
+
+
+
+    #footer {
+        padding: 60px 0 0;
+    }
+    #footer .footer_left{
+        text-align: left;
+    }
+    #footer .footer_left p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    #footer .footer_left .contact {
+        padding: 15px 30px 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #footer .footer_left .contact .contact_item{
+        margin-bottom: 10px;
+    }
+    #footer .footer_left .contact .contact_item h5 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    #footer .footer_right{
+        text-align: right;
+    }
+    #footer .footer_right h3 {
+        font-size: 25px;
+    }
+    #footer .footer_right p {
+        font-size: 14px;
+    }
+    #footer .footer_right ul {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+    #footer .footer_right ul li {
+        margin-right: 0;
+    }
+    #footer_bottom {
+        padding: 10px 0;
+    }
+    #footer_bottom ul {
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    #footer_bottom ul li {
+        width: 15%;
+        margin: 0;
+        text-align: center;
+    }
+    #footer_bottom ul li a {
+        font-size: 12px;
+    }
+    #footer_bottom p {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  About us Page CSS Start
+    =================================================================================*/
+    #about_banner .about_banner_right {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #about_banner {
+        padding: 200px 0 50px;
+    }
+    #about_banner .about_banner_row {
+        margin-top: 20px !important;
+    }
+
+
+
+    .ab{
+        padding-top: 0 !important;
+    }
+    #about_about {
+        margin-bottom: 10px;
+    }
+    #about_about .about_about_top {
+        padding: 50px 20px 0;
+    }
+    #about_about .about_about_top .about_about_item{
+        margin-bottom: 30px;
+    }
+    #about_about .about_about_top .about_about_item h3 {
+        font-size: 30px;
+    }
+    #about_about .about_about_top .about_about_item p {
+        font-size: 14px;
+    }
+
+
+
+
+    #process {
+        padding: 50px 0 0px;
+    }
+    #process .process_inner {
+        margin-top: 50px;
+    }
+    #process .process_inner .process_item {
+        margin-bottom: 70px;
+        padding-top: 10px;
+    }
+    #process .process_inner .process_item::before {
+        top: -15px;
+    }
+    #process .process_inner .process_item::after {
+        top: -22px;
+        width: 15px;
+        height: 15px;
+    }
+    #process .process_inner .process_item h4 {
+        margin-bottom: 5px;
+    }
+    #process .process_inner .process_item p {
+        font-size: 14px;
+    }
+
+
+
+
+    #client .client_left{
+        text-align: center;
+    }
+    #client .client_right {
+        margin-top: 30px;
+    }
+    #client .client_right ul li{
+        width: 15%;
+    }
+    #client .client_right ul li img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+
+
+    #team {
+        padding: 50px 0 50px;
+    }
+    #team .team_inner {
+        margin-top: 40px;
+    }
+    #team .team_inner .team_item {
+        margin-bottom: 24px;
+    }
+    #team .team_inner .team_item .image .social {
+        transform: translateX(-50%) scale(1);
+    }
+    /* ===============================================================================
+                                  About us Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Case Studies Page CSS Start
+    =================================================================================*/
+    #case_studies_head .client_info .info h4 {
+        font-size: 18px;
+    }
+    #case_studies_head .client_info::after {
+        width: 100%;
+    }
+
+
+
+
+
+    #keywords {
+        padding: 0 0 30px;
+    }
+    #keywords .keywords_inner ul {
+        padding: 15px 0;
+    }
+    #keywords .keywords_inner ul li:first-child {
+        width: 100% !important;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    #keywords .keywords_inner ul li {
+        width: 16%;
+        margin-bottom: 10px;
+    }
+    #keywords .keywords_inner ul li a {
+        font-size: 14px;
+    }
+    /* ===============================================================================
+                                  Case Studies Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Pricing Page CSS Start
+    =================================================================================*/
+    #pricing {
+        padding: 200px 0 0px;
+    }
+    #pricing .pricing_inner .pricing_item {
+        padding: 50px 40px 75px;
+        margin-bottom: 30px;
+    }
+    #pricing .pricing_inner .pricing_item .btn {
+        bottom: 40px;
+        padding: 12px 0;
+        font-size: 14px;
+    }
+    /* ===============================================================================
+                                  Pricing Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Work Page CSS Start
+    =================================================================================*/
+    #work_navTab {
+        padding: 50px 0 20px;
+    }
+    #work_navTab .work_nav .nav-tabs .nav-item .nav-link {
+        font-size: 16px;
+    }
+    #work_navTab .work_tab .work_item .text h3 {
+        font-size: 25px;
+    }
+    #work_navTab .work_tab .work_item .text p {
+        font-size: 14px;
+    }
+
+
+
+
+    #work_head .work_head_inner h1 {
+        font-size: 35px;
+    }
+    #work_head .work_head_inner p {
+        font-size: 14px;
+    }
+    #work_head .work_head_inner .btn {
+        font-size: 14px;
+    }
+    /* ===============================================================================
+                                  Work Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    .com_sec_in_head{
+        text-align: center;
+    }
+    .com_sec_in_head h2 {
+        font-size: 30px;
+    }
+    .com_sec_in_head p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .com_sec_in_head a {
+        font-size: 14px;
+    }
+    .com_sec_head {
+        justify-content: center;
+    }
+    .com_sec_head h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .com_sec_head a {
+        font-size: 14px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .com_head_mid h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .com_head_mid h6 {
+        font-size: 12px;
+    }
+
+
+
+    .navbar #navbarSupportedContent .navbar-nav {
+        text-align: center;
+    }
+    .navbar .contact_btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    .navbar .contact_btn {
+        font-size: 12px;
+        padding: 8px 20px;
+        background: #5239FA;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+
+    #banner {
+        padding: 130px 0 50px;
+    }
+    #banner .banner_left{
+        margin-top: 30px;
+    }
+    #banner .banner_left h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    #banner .banner_left p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    #banner .banner_left .btns{
+        text-align: center;
+    }
+    #banner .banner_left .btns a {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+
+    #strategy {
+        padding: 70px 0 0px;
+    }
+    #strategy .strategy_right{
+        margin-top: 50px;
+    }
+    #strategy .strategy_right .strategy_right_item h4 {
+        font-size: 20px;
+    }
+    #strategy .strategy_right .strategy_right_item p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no {
+        width: 40px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no img {
+        max-width: 40px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no h6 {
+        font-size: 12px;
+    }
+
+
+
+    #project {
+        padding: 70px 0 50px;
+    }
+    #project .project_inner .project_item .active_overlay {
+        width: 60%;
+    }
+    #project .project_inner .project_item .active_overlay .text {
+        bottom: 20px;
+        padding: 0 20px 0 20px;
+    }
+    #project .project_inner .project_item .active_overlay .text h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    #project .project_inner .project_item .active_overlay .text p {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    #project .project_inner .project_item .active_overlay .text a {
+        font-size: 10px;
+    }
+    #project .project_inner .project_item .overlay .text {
+        bottom: 30px;
+        padding: 0 20px;
+    }
+    #project .project_inner .project_item .overlay .text h4 {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    #project .project_inner .project_item .overlay .text a {
+        font-size: 12px;
+    }
+
+
+
+    #service {
+        padding: 70px 0 50px;
+    }
+    #service .service_inner .service_item {
+        padding: 30px 30px;
+    }
+    #service .service_inner .service_item h4 {
+        font-size: 20px;
+    }
+    #service .service_inner .service_item p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+
+
+    #review {
+        padding: 70px 0;
+    }
+    #review .review_right{
+        margin-top: 50px;
+    }
+    #review .review_right .review_right_item h4 {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #review .review_right .review_right_item .user {
+        margin-top: 20px;
+        padding-left: 65px;
+    }
+    #review .review_right .review_right_item .user h4 {
+        font-size: 16px;
+    }
+    #review .review_right .review_right_item .user h6 {
+        font-size: 10px;
+    }
+    #review .review_right .review_right_item .user .btns a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 0;
+    }
+    #review .review_right .review_right_item .user .btns a i {
+        font-size: 12px;
+    }
+
+
+
+
+    #faq {
+        padding: 70px 0 0;
+    }
+    #faq .faq_left{
+        margin-bottom: 50px;
+    }
+    #faq .faq_right .accordion .accordion-item {
+        padding-left: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 16px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-header .accordion-button span {
+        left: -16px;
+        font-size: 16px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-body {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+
+
+    #inquiry {
+        padding: 70px 0;
+    }
+    #inquiry .container{
+        max-width: 100%;
+    }
+    #inquiry .inquiry_left{
+        display: none;
+    }
+    #inquiry .inquiry_left img {
+        height: 330px;
+    }
+    #inquiry .inquiry_left .overlay .text {
+        padding: 50px 30px 30px 30px;
+    }
+    #inquiry .inquiry_left .overlay .text h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    #inquiry .inquiry_left .overlay .text p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #inquiry .inquiry_right {
+        padding: 50px 30px 30px 30px;
+    }
+    #inquiry .inquiry_right p {
+        font-size: 12px;
+    }
+    #inquiry .inquiry_right form input {
+        font-size: 10px;
+    }
+    #inquiry .inquiry_right form button {
+        padding: 8px 0;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #inquiry .inquiry_right a {
+        font-size: 12px;
+    }
+
+
+
+
+    #blog {
+        padding: 0 0 40px;
+    }
+    #blog .blog_inner {
+        margin-top: 40px;
+    }
+    #blog .blog_inner .blog_item {
+        margin-bottom: 40px;
+    }
+    #blog .blog_inner .blog_item .text h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #blog .blog_inner .blog_item .text h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #blog .blog_inner .blog_item .text p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    #blog .blog_inner .blog_item .text a {
+        font-size: 12px;
+    }
+
+
+
+
+    #footer {
+        padding: 60px 0 0;
+    }
+    #footer .footer_left{
+        text-align: center;
+    }
+    #footer .footer_left p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    #footer .footer_left .contact {
+        padding: 15px 30px 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #footer .footer_left .contact .contact_item{
+        margin-bottom: 10px;
+    }
+    #footer .footer_left .contact .contact_item h5 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    #footer .footer_right{
+        text-align: center;
+    }
+    #footer .footer_right p {
+        font-size: 14px;
+    }
+    #footer .footer_right ul {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+    #footer .footer_right ul li {
+        margin-right: 0;
+    }
+    #footer_bottom {
+        padding: 10px 0;
+    }
+    #footer_bottom ul {
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    #footer_bottom ul li {
+        width: 15%;
+        margin: 0;
+        text-align: center;
+    }
+    #footer_bottom ul li a {
+        font-size: 12px;
+    }
+    #footer_bottom p {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  About Page CSS Start
+    =================================================================================*/
+    #about_banner {
+        padding: 150px 0 50px;
+    }
+    #about_banner .about_banner_right {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #about_banner .about_banner_row {
+        margin-top: 20px !important;
+    }
+    #about_banner .about_banner_left h1 {
+        font-size: 35px;
+    }
+
+
+
+
+
+    .ab{
+        padding-top: 0 !important;
+    }
+    #about_about {
+        margin-bottom: 10px;
+    }
+    #about_about .about_about_top {
+        padding: 50px 20px 0;
+    }
+    #about_about .about_about_top .about_about_item{
+        margin-bottom: 30px;
+    }
+    #about_about .about_about_top .about_about_item h3 {
+        font-size: 30px;
+    }
+    #about_about .about_about_top .about_about_item p {
+        font-size: 14px;
+    }
+
+
+
+
+
+    #process {
+        padding: 50px 0 0px;
+    }
+    #process .process_inner {
+        margin-top: 50px;
+    }
+    #process .process_inner .process_item {
+        margin-bottom: 70px;
+        padding-top: 10px;
+    }
+    #process .process_inner .process_item::before {
+        top: -15px;
+    }
+    #process .process_inner .process_item::after {
+        top: -22px;
+        width: 15px;
+        height: 15px;
+    }
+    #process .process_inner .process_item h4 {
+        margin-bottom: 5px;
+    }
+    #process .process_inner .process_item p {
+        font-size: 14px;
+    }
+
+
+
+
+    #client {
+        margin-bottom: 50px;
+    }
+    #client .client_left{
+        text-align: center;
+    }
+    #client .client_right{
+        margin-top: 20px;
+    }
+    #client .client_right ul li {
+        width: 20%;
+        margin: 10px;
+    }
+    #client .client_right ul li img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+
+    #team {
+        padding: 50px 0 50px;
+    }
+    #team .team_inner {
+        margin-top: 40px;
+    }
+    #team .team_inner .team_item {
+        margin-bottom: 24px;
+    }
+    #team .team_inner .team_item .image .social {
+        transform: translateX(-50%) scale(1);
+    }
+    /* ===============================================================================
+                                  About Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Blog Page CSS Start
+    =================================================================================*/
+    #blog_about {
+        padding: 170px 0 50px;
+    }
+    #blog_about .blog_about_text h1 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+
+
+
+
+    #blog_post .blog_post_inner {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    /* ===============================================================================
+                                  Blog Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Case Studies Page CSS Start
+    =================================================================================*/
+    #case_studies_head {
+        padding: 150px 0 50px;
+    }
+    #case_studies_head .case_studies_head_inner .text h6 {
+        font-size: 18px;
+    }
+    #case_studies_head .case_studies_head_inner .text h1 {
+        font-size: 35px;
+        max-width: 100%;
+    }
+    #case_studies_head .case_studies_head_inner .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #case_studies_head .case_studies_head_inner .image {
+        margin-top: 20px;
+    }
+    #case_studies_head .client_info .info h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #case_studies_head .client_info .info h4 {
+        font-size: 14px;
+    }
+    #case_studies_head .client_info{
+        padding-top: 30px;
+    }
+    #case_studies_head .client_info .info {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    #case_studies_head .client_info::after {
+        width: 95%;
+    }
+
+
+
+
+    #project_about .project_about_inner h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #project_about .project_about_inner p {
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+    }
+    #project_about .project_about_inner ul li {
+        font-size: 12px;
+    }
+
+
+
+
+
+    #keywords {
+        padding: 0 0 30px;
+    }
+    #keywords .keywords_inner ul {
+        padding: 15px 0;
+    }
+    #keywords .keywords_inner ul li:first-child {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    #keywords .keywords_inner ul li {
+        width: 33%;
+        margin-bottom: 10px;
+    }
+    #keywords .keywords_inner ul li a {
+        font-size: 14px;
+    }
+
+
+
+
+    #work_head .work_head_inner h1 {
+        font-size: 25px;
+    }
+    #work_head .work_head_inner p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    #work_head .work_head_inner .btn {
+        font-size: 12px;
+        padding: 8px 25px;
+        margin-left: 0;
+    }
+    #work_head {
+        padding-bottom: 35px;
+    }
+    /* ===============================================================================
+                                  Case Studies Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Contact Page CSS Start
+    =================================================================================*/
+    .com_head_mid p {
+        font-size: 14px;
+    }
+
+
+
+
+    #contact_head {
+        padding: 150px 0 50px;
+    }
+    
+
+
+    #contact_head .contact_form {
+        padding: 50px 20px;
+    }
+    #contact_head .contact_form label {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    #contact_head .contact_form input {
+        margin-bottom: 15px;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    /* ===============================================================================
+                                  Contact Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Features Page CSS Start
+    =================================================================================*/
+    .features_banner{
+        padding: 50px 0 !important;
+    }
+    .features_banner .fcb h1{
+        font-size: 35px !important;
+    }
+    /* ===============================================================================
+                                  Features Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Pricing Page CSS Start
+    =================================================================================*/
+    #pricing {
+        padding: 150px 0 0px;
+    }
+    #pricing .pricing_inner .pricing_item {
+        padding: 50px 30px 75px;
+        margin-bottom: 30px;
+    }
+    #pricing .pricing_inner .pricing_item h3 span {
+        font-size: 14px;
+    }
+    #pricing .pricing_inner .pricing_item ul {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #pricing .pricing_inner .pricing_item .btn {
+        bottom: 30px;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    /* ===============================================================================
+                                  Pricing Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Work Page CSS Start
+    =================================================================================*/
+    .wh{
+        padding-top: 150px !important;
+    }
+    #work_navTab {
+        padding: 45px 0 0px;
+    }
+    #work_navTab .work_nav .nav-tabs .nav-item .nav-link {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    #work_navTab .work_nav .nav-tabs .nav-item {
+        margin: 0;
+        width: 25%;
+    }
+    #work_navTab .work_tab {
+        margin: 50px auto 0 !important;
+    }
+    #work_navTab .work_tab .work_item {
+        margin-bottom: 50px;
+    }
+    #work_navTab .work_tab .work_item .text {
+        margin-top: 25px;
+    }
+    #work_navTab .work_tab .work_item .text h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    #work_navTab .work_tab .work_item .text p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    #work_navTab .work_tab .work_item .text span {
+        font-size: 14px;
+    }
+    /* ===============================================================================
+                                  Work Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+
+}
+
+@media (max-width: 575.98px) {
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    .com_sec_in_head{
+        text-align: center;
+    }
+    .com_sec_in_head h2 {
+        font-size: 30px;
+    }
+    .com_sec_in_head p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .com_sec_in_head a {
+        font-size: 14px;
+    }
+    .com_sec_head {
+        justify-content: center;
+    }
+    .com_sec_head h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .com_sec_head a {
+        font-size: 14px;
+        margin-top: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    .com_head_mid h2 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .com_head_mid h6 {
+        font-size: 12px;
+    }
+
+
+
+    .navbar #navbarSupportedContent .navbar-nav {
+        text-align: center;
+    }
+    .navbar .contact_btn {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    .navbar .contact_btn {
+        font-size: 12px;
+        padding: 8px 20px;
+        background: #5239FA;
+    }
+    .navbar #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+
+    #banner {
+        padding: 130px 0 50px;
+    }
+    #banner .banner_left{
+        margin-top: 30px;
+    }
+    #banner .banner_left h1 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    #banner .banner_left p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    #banner .banner_left .btns{
+        text-align: center;
+    }
+    #banner .banner_left .btns a {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+
+    #strategy {
+        padding: 70px 0 0px;
+    }
+    #strategy .strategy_right{
+        margin-top: 50px;
+    }
+    #strategy .strategy_right .strategy_right_item h4 {
+        font-size: 20px;
+    }
+    #strategy .strategy_right .strategy_right_item p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no {
+        width: 40px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no img {
+        max-width: 40px;
+    }
+    #strategy .strategy_right .strategy_right_item .count_no h6 {
+        font-size: 12px;
+    }
+
+
+
+    #project {
+        padding: 70px 0 50px;
+    }
+    #project .project_inner .project_item .active_overlay {
+        width: 60%;
+    }
+    #project .project_inner .project_item .active_overlay .text {
+        bottom: 20px;
+        padding: 0 20px 0 20px;
+    }
+    #project .project_inner .project_item .active_overlay .text h4 {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 20px;
+    }
+    #project .project_inner .project_item .active_overlay .text p {
+        font-size: 10px;
+        line-height: 20px;
+        margin-bottom: 5px;
+    }
+    #project .project_inner .project_item .active_overlay .text a {
+        font-size: 10px;
+    }
+
+
+
+    #service {
+        padding: 70px 0 50px;
+    }
+    #service .service_inner .service_item {
+        padding: 30px 30px;
+    }
+    #service .service_inner .service_item h4 {
+        font-size: 20px;
+    }
+    #service .service_inner .service_item p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+
+
+    #review {
+        padding: 70px 0;
+    }
+    #review .review_right{
+        margin-top: 50px;
+    }
+    #review .review_right .review_right_item h4 {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #review .review_right .review_right_item .user {
+        margin-top: 20px;
+        padding-left: 65px;
+    }
+    #review .review_right .review_right_item .user h4 {
+        font-size: 16px;
+    }
+    #review .review_right .review_right_item .user h6 {
+        font-size: 10px;
+    }
+    #review .review_right .review_right_item .user .btns a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        margin: 0 0;
+    }
+    #review .review_right .review_right_item .user .btns a i {
+        font-size: 12px;
+    }
+
+
+
+
+    #faq {
+        padding: 70px 0 0;
+    }
+    #faq .faq_left{
+        margin-bottom: 50px;
+    }
+    #faq .faq_right .accordion .accordion-item {
+        padding-left: 15px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-header .accordion-button {
+        font-size: 16px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-header .accordion-button span {
+        left: -16px;
+        font-size: 16px;
+    }
+    #faq .faq_right .accordion .accordion-item .accordion-body {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+
+
+
+    #inquiry {
+        padding: 70px 0;
+    }
+    #inquiry .inquiry_left{
+        display: none;
+    }
+    #inquiry .inquiry_left img {
+        height: 330px;
+    }
+    #inquiry .inquiry_left .overlay .text {
+        padding: 50px 30px 30px 30px;
+    }
+    #inquiry .inquiry_left .overlay .text h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    #inquiry .inquiry_left .overlay .text p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    #inquiry .inquiry_right {
+        padding: 50px 30px 30px 30px;
+    }
+    #inquiry .inquiry_right p {
+        font-size: 12px;
+    }
+    #inquiry .inquiry_right form input {
+        font-size: 10px;
+    }
+    #inquiry .inquiry_right form button {
+        padding: 8px 0;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #inquiry .inquiry_right a {
+        font-size: 12px;
+    }
+
+
+
+
+    #blog {
+        padding: 0 0 40px;
+    }
+    #blog .blog_inner {
+        margin-top: 40px;
+    }
+    #blog .blog_inner .blog_item {
+        margin-bottom: 40px;
+    }
+    #blog .blog_inner .blog_item .text h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #blog .blog_inner .blog_item .text h4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #blog .blog_inner .blog_item .text p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    #blog .blog_inner .blog_item .text a {
+        font-size: 12px;
+    }
+
+
+
+
+    #footer {
+        padding: 60px 0 0;
+    }
+    #footer .footer_left{
+        text-align: center;
+    }
+    #footer .footer_left p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+    #footer .footer_left .contact {
+        padding: 15px 30px 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #footer .footer_left .contact .contact_item{
+        margin-bottom: 10px;
+    }
+    #footer .footer_left .contact .contact_item h5 {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    #footer .footer_right{
+        text-align: center;
+    }
+    #footer .footer_right p {
+        font-size: 14px;
+    }
+    #footer .footer_right ul {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        justify-content: space-evenly;
+    }
+    #footer .footer_right ul li {
+        margin-right: 0;
+    }
+    #footer_bottom {
+        padding: 10px 0;
+    }
+    #footer_bottom ul {
+        justify-content: space-evenly;
+        margin-bottom: 10px;
+    }
+    #footer_bottom ul li {
+        width: 32%;
+        margin: 0;
+        text-align: center;
+    }
+    #footer_bottom ul li a {
+        font-size: 12px;
+    }
+    #footer_bottom p {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  About Us Page CSS Start
+    =================================================================================*/
+    #about_banner {
+        padding: 150px 0 50px;
+    }
+    #about_banner .about_banner_left h6 {
+        font-size: 16px;
+    }
+    #about_banner .about_banner_left h1 {
+        font-size: 35px;
+    }
+    #about_banner .about_banner_left p {
+        font-size: 14px;
+    }
+    #about_banner .about_banner_right {
+        margin-top: 30px;
+    }
+
+
+
+
+    #about_about {
+        margin-bottom: 20px;
+    }
+    #about_about .about_about_top {
+        padding: 40px 15px 0;
+    }
+    #about_about .about_about_top .about_about_top_head h6 {
+        font-size: 14px;
+    }
+    #about_about .about_about_top .about_about_item h3 {
+        font-size: 26px;
+    }
+    #about_about .about_about_top .about_about_item p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    #process {
+        padding: 50px 0 0px;
+    }
+    #process .process_inner {
+        margin-top: 50px;
+    }
+    #process .process_inner .process_item {
+        margin-bottom: 70px;
+        padding-top: 10px;
+    }
+    #process .process_inner .process_item::before {
+        top: -15px;
+    }
+    #process .process_inner .process_item::after {
+        top: -22px;
+        width: 15px;
+        height: 15px;
+    }
+    #process .process_inner .process_item h4 {
+        margin-bottom: 5px;
+    }
+    #process .process_inner .process_item p {
+        font-size: 14px;
+    }
+
+
+
+
+    .ab {
+        padding-top: 20px !important;
+    }
+    #about_banner .ab_l{
+        margin-top: 15px;
+    }
+    #about_banner .about_banner_row{
+        margin-top: 20px !important;
+    }
+
+
+
+
+    #service .service_inner {
+        margin-top: 30px;
+    }
+    .bn{
+        padding-bottom: 30px !important;
+    }
+
+
+
+
+    #client {
+        margin-bottom: 50px;
+    }
+    #client .client_left{
+        text-align: center;
+    }
+    #client .client_right{
+        margin-top: 20px;
+    }
+    #client .client_right ul li {
+        width: 30%;
+        margin: 10px;
+    }
+    #client .client_right ul li img{
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    #team {
+        padding: 50px 0 30px;
+    }
+    #team .team_inner {
+        margin-top: 30px;
+    }
+    #team .team_inner .team_item {
+        padding: 30px 0px 30px;
+        margin-bottom: 24px;
+    }
+    #team .team_inner .team_item .image .social {
+        transform: translateX(-50%) scale(1);
+        bottom: -30px;
+    }
+    #team .team_inner .team_item .image img {
+        max-width: 80px;
+    }
+    #team .team_inner .team_item .image .social ul li a i {
+        color: #000;
+    }
+    #team .team_inner .team_item .text {
+        margin-top: 40px;
+    }
+    #team .team_inner .team_item .text h4 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    #team .team_inner .team_item .text p {
+        font-size: 10px;
+    }
+    /* ===============================================================================
+                                  About Us Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Blog Page CSS Start
+    =================================================================================*/
+    #blog_about {
+        padding: 150px 0 50px;
+    }
+    #blog_about .blog_about_image {
+        margin-bottom: 20px;
+    }
+    #blog_about .blog_about_text h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    #blog_about .blog_about_text p span {
+        font-size: 12px !important;
+    }
+    #blog_about .blog_about_text p {
+        font-size: 14px;
+    }
+    #blog_about .blog_about_text a {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+
+
+    #blog_post .blog_post_inner {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    #blog_post .blog_post_inner .blog_post_item .text h6 {
+        font-size: 12px;
+    }
+    #blog_post .blog_post_inner .blog_post_item .text h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #blog_post .blog_post_inner .blog_post_item .text p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    /* ===============================================================================
+                                  Blog Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Case Studies Page CSS Start
+    =================================================================================*/
+    #case_studies_head {
+        padding: 150px 0 50px;
+    }
+    #case_studies_head .case_studies_head_inner .text h6 {
+        font-size: 18px;
+    }
+    #case_studies_head .case_studies_head_inner .text h1 {
+        font-size: 35px;
+        max-width: 100%;
+    }
+    #case_studies_head .case_studies_head_inner .text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #case_studies_head .case_studies_head_inner .image {
+        margin-top: 20px;
+    }
+    #case_studies_head .client_info .info h6 {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #case_studies_head .client_info .info h4 {
+        font-size: 14px;
+    }
+    #case_studies_head .client_info{
+        padding-top: 30px;
+    }
+    #case_studies_head .client_info .info {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    #case_studies_head .client_info::after {
+        width: 95%;
+    }
+
+
+
+
+    #project_about .project_about_inner h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    #project_about .project_about_inner p {
+        font-size: 12px;
+        line-height: 24px;
+        text-align: center;
+    }
+    #project_about .project_about_inner ul li {
+        font-size: 12px;
+    }
+
+
+
+
+
+    #keywords {
+        padding: 0 0 30px;
+    }
+    #keywords .keywords_inner ul {
+        padding: 15px 0;
+    }
+    #keywords .keywords_inner ul li:first-child {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+    #keywords .keywords_inner ul li {
+        width: 33%;
+    }
+    #keywords .keywords_inner ul li a {
+        font-size: 12px;
+    }
+
+
+
+
+    #work_head .work_head_inner h1 {
+        font-size: 25px;
+    }
+    #work_head .work_head_inner p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    #work_head .work_head_inner .btn {
+        font-size: 12px;
+        padding: 8px 25px;
+        margin-left: 0;
+    }
+    #work_head {
+        padding-bottom: 35px;
+    }
+    /* ===============================================================================
+                                  Case Studies Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Contact Page CSS Start
+    =================================================================================*/
+    .com_head_mid p {
+        font-size: 14px;
+    }
+
+
+
+
+    #contact_head {
+        padding: 150px 0 50px;
+    }
+    
+
+
+    #contact_head .contact_form {
+        padding: 50px 20px;
+    }
+    #contact_head .contact_form label {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    #contact_head .contact_form input {
+        margin-bottom: 15px;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    /* ===============================================================================
+                                  Contact Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Features Page CSS Start
+    =================================================================================*/
+    .features_banner{
+        padding: 50px 0 !important;
+    }
+    .features_banner .fcb h1{
+        font-size: 30px !important;
+    }
+    /* ===============================================================================
+                                  Features Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Pricing Page CSS Start
+    =================================================================================*/
+    #pricing {
+        padding: 150px 0 0px;
+    }
+    #pricing .pricing_inner .pricing_item {
+        padding: 50px 30px 75px;
+        margin-bottom: 30px;
+    }
+    #pricing .pricing_inner .pricing_item h3 span {
+        font-size: 12px;
+    }
+    #pricing .pricing_inner .pricing_item p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+    #pricing .pricing_inner .pricing_item ul {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #pricing .pricing_inner .pricing_item ul li {
+        font-size: 12px;
+    }
+    #pricing .pricing_inner .pricing_item .btn {
+        bottom: 30px;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    /* ===============================================================================
+                                  Pricing Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Privacy Policy Page CSS Start
+    =================================================================================*/
+    #privacy_policy_head {
+        padding: 150px 0 80px;
+    }
+    #privacy_content .privacy_content_inner p {
+        font-size: 12px;
+    }
+    #privacy_content .privacy_content_inner h4 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    /* ===============================================================================
+                                  Privacy Policy Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Read Blog Page CSS Start
+    =================================================================================*/
+    #blog_content .blog_content_inner h4 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #blog_content .blog_content_inner p {
+        font-size: 12px;
+    }
+    /* ===============================================================================
+                                  Read Blog Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Work Page CSS Start
+    =================================================================================*/
+    .wh{
+        padding-top: 150px !important;
+    }
+    #work_navTab {
+        padding: 45px 0 0px;
+    }
+    #work_navTab .work_nav .nav-tabs .nav-item .nav-link {
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    #work_navTab .work_nav .nav-tabs .nav-item {
+        margin: 0;
+        width: 25%;
+    }
+    #work_navTab .work_tab {
+        margin: 50px auto 0 !important;
+    }
+    #work_navTab .work_tab .work_item {
+        margin-bottom: 35px;
+    }
+    #work_navTab .work_tab .work_item .text {
+        margin-top: 15px;
+    }
+    #work_navTab .work_tab .work_item .text h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #work_navTab .work_tab .work_item .text p {
+        font-size: 12px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    #work_navTab .work_tab .work_item .text span {
+        font-size: 12px;
+    }
+    /* ===============================================================================
+                                  Work Page CSS End
+    =================================================================================*/
+
+
+
+
+
+
+
+
+
+    /* ===============================================================================
+                                  Home Page CSS Start
+    =================================================================================*/
+    /* ===============================================================================
+                                  Home Page CSS End
+    =================================================================================*/
+}
